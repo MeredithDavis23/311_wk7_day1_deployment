@@ -1,4 +1,7 @@
 runtime: nodejs10
 
 env_variables:
-  CLOUD_INSTANCE: fake-instance
+  CLOUD_INSTANCE: first-instance
+
+#   mysql -u root -h 35.225.211.211 -p
+# ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
