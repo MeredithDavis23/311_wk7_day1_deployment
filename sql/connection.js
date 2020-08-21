@@ -8,7 +8,7 @@ class Connection {
 
       const config = {
         connectionLimit: 100,
-        host: 35.238.183.35,
+        host: '35.238.183.35',
         user: 'root',
         password: process.env.DB_PASSWORD,
         database: 'admin'
